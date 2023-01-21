@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Cadcading Style Sheet</title>
+   <!-- External CSS -->
+  
+   <link rel="preconnect" href="https://fonts.googleapis.com">
+   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+   <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100;400;700;900&display=swap" rel="stylesheet">
+   <link rel="preconnect" href="https://fonts.googleapis.com">
+   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+   <link href="https://fonts.googleapis.com/css2?family=Fredericka+the+Great&family=Montserrat:wght@100&display=swap" rel="stylesheet">
+
+   <!-- Internal css -->
+   <style>
+    h1{
+        font-family: 'Montserrat';
+        font-size: 48px;
+        font-weight: 900;
+        font-style: italic;
+        color: #000000;
+        
+        /*Hex Code - #RRGGBB */
+        /*Hexadecimal (16 digits) - 0,1,2,3,4,5,6,7,8,9,A,B,C,D,E,F */
+        /* with aplha*/
+        color:#6728735c;
+        /* withou alpha*/
+        color:#672873;
+
+        background-color:rgb(216, 13, 13);
+
+        /* RGB Code - (R,G,B) */
+        /* with alpha*/
+        color:rgba(124, 21, 95, 0.2);
+        /* with alpha*/
+        color:rgb(67, 78, 90);
+
+    }
+       
+   </style>
+
+   <!-- Inline CSS -->
+
+   <!-- <span style="background-color: brown;">voluptatibus! Exercitationem</span> -->
+
+   <!-- Specificity : Inline > Internal > External -->
+
+</head>
+<body>
+    <ul>
+        <li>
+           <p>Item one</p>
+        </li>
+    </ul>
+    <section>
+        <h1 class="sectionTitle">This is a heading</h1>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+            Omnis nobis ipsum suscipit neque sint quo, nostrum quisquam dicta sapiente <span>quaerat temporibus</span> beatae, vitae facilis dolorum voluptates repellendus modi culpa adipisci?</p>
+    </section>
+    <section>
+        <h2 class="specialTitle">This is a heading </h2>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing 
+            elit. Sed cupiditate minima perspiciatis dolorum suscipit vitae delectus.<span>hic laborum corrupti
+             quas tenetur</span>Tempore laboriosam, quo hic laborum corrupti quas tenetur in voluptatibus placeat omnis sunt error.</p>
+    </section>
+    <section>
+        <h2 class="specialTitle">This is a heading </h2>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing 
+            elit. Sed cupiditate minima perspiciatis dolorum suscipit vitae delectus.<span>hic laborum corrupti
+             quas tenetur</span>Tempore laboriosam, quo hic laborum corrupti quas tenetur in voluptatibus placeat omnis sunt error.</p>
+    </section>
+    
+</body>
+</html>

@@ -1,0 +1,36 @@
+  /* Global / Universal Selector */
+  * {
+    font-family: 'Verdana'
+} 
+
+/*HTML Selectors / Tag Selectors */
+body {
+    background-color: beige;
+}
+
+section {
+    background-color: pink;
+}
+
+p{
+    background-color: aquamarine;
+}
+span {
+    background-color: yellow;
+}
+h1 {
+    color: red;
+    background-color: cyan;
+}
+
+/* Class Selector */
+.sectionTitle {
+    color: blue;
+    text-decoration: underline;
+}
+
+/* ID Selector */
+#specialTitle {
+    color: green;
+    text-transform: capitalize;
+}
